@@ -1,0 +1,92 @@
+
+body{
+	font-family: Helvetica, Arial, san-serif;
+	box-sizing: border-box;
+	color: #000000;
+	background-color: #ffffff;
+	font-size: 1.3em;
+}
+.row{
+	width: 100%;
+	margin: 0 auto;
+}
+#header-nav{
+	background-color: lightgrey;
+}
+div.navbar-header{
+	border-bottom: 1px solid black;
+}
+.navbar-brand span{
+	color: #000000;
+	font-size: 1.4em;
+
+}
+#myNavbar ul li span{
+	color: #0000FF;
+	font-weight: bold;
+	font-size:1em;
+}
+#myNavbar ul {
+	background-color: #ffffe6;
+	margin-top:1px;
+}
+h1{
+	margin-top: 0%;
+	margin-bottom: 2%;
+	font-size:2em;
+}
+h2{
+	font-size:1.5em;
+}
+.box{
+  background-color: #CCCCCC;
+  border: 1px solid #000000;
+  width:100%;
+  margin-bottom: 5%; 
+}
+.content{
+	margin: 2% 2% 2% 2%;
+
+}
+.navbar-nav{
+		margin: 0 -27px -27px -27px;
+	}
+hr {
+  height:0; 
+  border:0; 
+  border-top:1px solid #083972; 
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px){
+	div.navbar-header{
+	border-bottom: none;
+	}
+	.box{
+		margin-bottom: 4%;
+	}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) { 
+	div.navbar-header{
+	border-bottom: none;
+	}
+	.box{
+		margin-bottom: 3%;
+	}
+}
+
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+	div.navbar-header{
+	border-bottom: none;
+	}
+
+	.box{
+		margin-bottom: 2%;
+	}
+}
+
